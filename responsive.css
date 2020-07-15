@@ -1,0 +1,84 @@
+/* media queries */
+@media screen and (max-width:991px) and (min-width:768px) {
+    .menu-area{
+        padding: 2rem 2rem;
+    }
+    .blog-area{
+        padding: 0rem 0rem 3rem 0rem;
+    }
+    .post {
+        width: 80%;
+    }
+    .single-post-area {
+        padding: 2rem 2rem;
+    }
+
+    .post-area {
+        flex-basis: 100%;
+        padding: 0;
+    }
+
+    .sidebar-area {
+        flex-basis: 100%;
+        padding: 0;
+    }
+}
+
+
+
+@media (max-width:420px) {
+    .menu-area{
+        padding: 1rem;
+    }
+    .menu-area{
+        width: 100%;
+        padding: 2rem 0;
+        flex-flow: column;
+    }
+
+    .nav-link {
+        padding: 1rem;
+        font-size: 1rem;
+    }
+
+    .header-area {
+        margin: 1rem 0;
+    }
+
+    .header-area h1 {
+        font-size: 20px;
+    }
+    
+    .header-area p {
+        font-size: 14px;
+    }
+
+    .blog-area {
+        padding: 2rem 2rem;
+    }
+
+    .card-body {
+        margin: 2rem auto;
+        flex-basis: 100%;
+    }
+
+    .single-post-area {
+        padding: 2rem;
+    }
+
+    .post-area {
+        flex-basis: 100%;
+        padding: 0;
+    }
+
+    .post-area h1 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .sidebar-area {
+        flex-basis: 100%;
+        padding: 0;
+    }
+
+}

@@ -1,0 +1,28 @@
+.design-system-area {
+    grid-area: system;
+    width: 100%;
+    margin: 0 auto;
+    padding: 2rem 10rem;
+}
+
+.system-item{
+    margin-bottom: 1rem;
+}
+
+.typhography h3, 
+.color h3,
+.component h3,
+.pattern h3{
+    font-size: 18px;
+    margin-bottom: .5rem;
+}
+
+.typhography a{
+    text-decoration: none;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}

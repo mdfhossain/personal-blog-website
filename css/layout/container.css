@@ -1,0 +1,6 @@
+.wrapper-area {
+    grid-template-areas: 'nav nav nav nav'
+                         'header header header header'
+                         'card card card card'
+                         'footer footer footer footer';
+}

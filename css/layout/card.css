@@ -1,0 +1,41 @@
+.blog-area {
+    grid-area: card;
+    width: 100%;
+    margin: 0 auto;
+    padding: 2rem 5rem;
+}
+
+.title {
+    color: #505050;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 2rem 0;
+}
+
+.card {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.card-body {
+    flex-basis: 25%;
+}
+
+.card-body img{
+    width: 100%;
+}
+
+.card-title{
+    font-size: 16px;
+    font-weight: 600;
+    margin: 1rem 0;
+}
+
+.card-body p{
+    color: #888888;
+    font-size: 14px;
+    margin: 1rem 0 2rem 0;
+}

@@ -1,0 +1,15 @@
+.footer-area {
+    grid-area: footer;
+    text-align: center;
+    padding: 2rem;
+}
+
+.footer-area p{
+    color: #888888;
+    font-size: 14px;
+}
+
+.footer-area p a{
+    text-decoration: none;
+    color:  #000000;
+}
