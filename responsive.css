@@ -1,5 +1,5 @@
 /* media queries */
-@media screen and (max-width:992px) and (min-width:1440px) {
+@media screen and (max-width:1440px) and (min-width:992px) {
     .menu-area, .single-post-area {
         padding: 2rem 5rem;
     }
